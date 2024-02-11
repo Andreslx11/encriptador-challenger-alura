@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" href="imagen/encriptado.png" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Encriptador</title>
+  </head>
+
+  <body>
+    <header class="container-nav">
+      <div class="caja">
+        <nav>
+          <ul>
+            <li>
+              <a class="encriptador" href="index.html" rel="noreferrer"
+                >Inicio</a
+              >
+            </li>
+            <li>
+              <a class="Información" href="informacion.html" rel="noreferrer"
+                >Información</a
+              >
+            </li>
+            <li>
+              <a
+                class="alura"
+                href="https://www.aluracursos.com/"
+                target="_blank"
+                rel="noreferrer"
+                >Alura
+              </a>
+            </li>
+            <li>
+              <a
+                class="one"
+                href="https://www.oracle.com/co/education/oracle-next-education/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Oracle One Next Education</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <div class="contenedor-titulo">
+      <h1 class="titulo-principal">Encriptador</h1>
+    </div>
+
+    <section id="containerCaja1">
+      <textarea
+        type="text"
+        cols="50"
+        rows="17"
+        class="textarea"
+        id="textarea1Id"
+        placeholder="   Ingrese el texto aquí, solo letras minúsculas     
+    sin signos especiales"
+      ></textarea>
+      <div class="caja_botones1">
+        <button onclick="encriptar();" class="botones" id="encriptadoId">
+          Encriptar
+        </button>
+        <button onclick="desencriptar();" class="botones" id="desencriptadoId">
+          Desencriptar
+        </button>
+      </div>
+    </section>
+    <section id="containerCaja2">
+      <textarea
+        type="text"
+        cols="50"
+        rows="17"
+        class="textarea"
+        id="textarea2Id"
+        placeholder="      "
+      ></textarea>
+    </section>
+  </body>
+
+  <footer>
+    <pre class="contacto">
+    Servicio al cliente     Teléfono: (+00) 000 000 0000     Correo: encriptador@domio.com 
+  </pre
+    >
+    <p class="copyright">&copy Copyright Encriptador - 2024</p>
+
+    <img class="alura" src="imagen/16-logo-alura.png" />
+    <img class="one" src="imagen/15-logo-one-.png" />
+  </footer>
+
+  <script src="app.js"></script>
+</html>
